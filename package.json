@@ -1,0 +1,30 @@
+{
+  "name": "iosdc-pamphlet-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "pdf": "vivliostyle build",
+    "open": "open ./output/output.pdf",
+    "start": "vivliostyle build && open ./output/output.pdf",
+    "press": "vivliostyle build --preflight press-ready -o output/press.pdf",
+    "press-local": "vivliostyle build --preflight press-ready-local -o output/press.pdf",
+    "lint": "textlint ./manuscripts/",
+    "check": "biome check",
+    "check-write": "biome check --write"
+  },
+  "dependencies": {
+    "@vivliostyle/cli": "9.3.2"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.0.6",
+    "press-ready": "^4.0.3",
+    "textlint": "^15.0.1",
+    "textlint-filter-rule-comments": "^1.2.2",
+    "textlint-rule-preset-ja-spacing": "^2.4.3",
+    "textlint-rule-preset-ja-technical-writing": "^12.0.2",
+    "textlint-rule-prh": "^6.1.0",
+    "textlint-rule-spellcheck-tech-word": "^5.0.0"
+  },
+  "packageManager": "yarn@4.9.2"
+}

@@ -1,0 +1,30 @@
+{
+    "editor.defaultFormatter": "biomejs.biome",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports.biome": "explicit"
+    },
+    "cSpell.words": [
+        "bluesky",
+        "bsky",
+        "corepack",
+        "discardable",
+        "Hashable",
+        "hasher",
+        "hogehoge",
+        "inout",
+        "iosdc",
+        "mitsuharu",
+        "MVVM",
+        "nodenv",
+        "noto",
+        "Sonoma",
+        "struct",
+        "techbook",
+        "techbooster",
+        "textlint",
+        "textlintignore",
+        "typealias",
+        "vivliostyle"
+    ]
+}
