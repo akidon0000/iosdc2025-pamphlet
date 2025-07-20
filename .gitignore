@@ -199,7 +199,6 @@ dist
 
 # 以下はカスタム追加した設定
 
-output/*
 .vivliostyle
 *.css.map
 
