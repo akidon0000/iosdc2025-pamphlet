@@ -1589,9 +1589,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vivliostyle/cli@npm:9.3.2":
-  version: 9.3.2
-  resolution: "@vivliostyle/cli@npm:9.3.2"
+"@vivliostyle/cli@npm:9.4.0":
+  version: 9.4.0
+  resolution: "@vivliostyle/cli@npm:9.4.0"
   dependencies:
     "@babel/code-frame": "npm:7.26.2"
     "@humanwhocodes/momoa": "npm:3.3.8"
@@ -1599,7 +1599,7 @@ __metadata:
     "@npmcli/arborist": "npm:8.0.0"
     "@vivliostyle/jsdom": "npm:25.0.1-vivliostyle-cli.1"
     "@vivliostyle/vfm": "npm:2.2.1"
-    "@vivliostyle/viewer": "npm:2.33.1"
+    "@vivliostyle/viewer": "npm:2.33.2"
     ajv: "npm:8.17.1"
     ajv-formats: "npm:3.0.1"
     archiver: "npm:7.0.1"
@@ -1643,11 +1643,11 @@ __metadata:
   bin:
     vivliostyle: dist/cli.js
     vs: dist/cli.js
-  checksum: 10c0/d38494d776e5ae0b07671616c8c290a22a25b2d8805010bfa13816647c209044e8b41bf051b9cef0fc1b6db983f9d7f08aa4371f7e3e23ae1e672751e130cd60
+  checksum: 10c0/2bdce78406376db5d43fefbbc3b2cb7a9d41412d5e134cde7d962fd1fb528a81c8ebc90b979302b8001f709e34072f272f620db86a435117a941e357cdba91ed
   languageName: node
   linkType: hard
 
-"@vivliostyle/core@npm:^2.33.1":
+"@vivliostyle/core@npm:^2.33.2":
   version: 2.33.2
   resolution: "@vivliostyle/core@npm:2.33.2"
   dependencies:
@@ -1733,14 +1733,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vivliostyle/viewer@npm:2.33.1":
-  version: 2.33.1
-  resolution: "@vivliostyle/viewer@npm:2.33.1"
+"@vivliostyle/viewer@npm:2.33.2":
+  version: 2.33.2
+  resolution: "@vivliostyle/viewer@npm:2.33.2"
   dependencies:
-    "@vivliostyle/core": "npm:^2.33.1"
+    "@vivliostyle/core": "npm:^2.33.2"
     i18next-ko: "npm:^3.0.1"
     knockout: "npm:^3.5.0"
-  checksum: 10c0/b574d988eff6e2525634a12786d59dc536ec875949719ee2cb5bf07944a3d02ebdce5c1d130d31b76b6bb8031d5ee910b6ad73f5e42728986d79e8d7024eb839
+  checksum: 10c0/138c42cd4e6a8d10a50a52479b98c7eb19ddbdb4bd879a033a069976a2c8cf681a78b14914e49dd512ad7f4633e4be6d3afb3030198cc457a3fef9864c994362
   languageName: node
   linkType: hard
 
@@ -4276,7 +4276,7 @@ __metadata:
   resolution: "iosdc-pamphlet-template@workspace:."
   dependencies:
     "@biomejs/biome": "npm:2.0.6"
-    "@vivliostyle/cli": "npm:9.3.2"
+    "@vivliostyle/cli": "npm:9.4.0"
     press-ready: "npm:^4.0.3"
     textlint: "npm:^15.0.1"
     textlint-filter-rule-comments: "npm:^1.2.2"
